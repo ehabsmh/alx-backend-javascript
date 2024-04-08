@@ -260,3 +260,34 @@ export default function getBudgetForCurrentYear(income, gdp, capita) {
 
 #### Execution
 `npm run dev executables/8-main.js`
+
+---
+
+**[9. ES6 method properties](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/9-getFullBudget.js)**
+
+Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object.
+
+```es6
+import getBudgetObject from './7-getBudgetObject.js';
+
+export default function getFullBudgetObject(income, gdp, capita) {
+  const budget = getBudgetObject(income, gdp, capita);
+  const fullBudget = {
+    ...budget,
+    getIncomeInDollars: function (income) {
+      return `$${income}`;
+    },
+    getIncomeInEuros: function (income) {
+      return `${income} euros`;
+    },
+  };
+
+  return fullBudget;
+}
+```
+
+#### check style
+`npm run lint 9-getFullBudget.js`
+
+#### Execution
+`npm run dev executables/9-main.js`
