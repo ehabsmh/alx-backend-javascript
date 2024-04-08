@@ -75,10 +75,10 @@ export function taskNext() {
 }
 ```
 ### check style
-npm run lint 0-constants.js
+`npm run lint 0-constants.js`
 
 #### Execution
-npm run dev executables/0-main.js
+`npm run dev executables/0-main.js`
 
 ---
 
@@ -99,10 +99,10 @@ export default function taskBlock(trueOrFalse) {
 }
 ```
 ### check style
-npm run lint 1-block-scoped.js
+`npm run lint 1-block-scoped.js`
 
 #### Execution
-npm run dev executables/1-main.js
+`npm run dev executables/1-main.js`
 
 ---
 
@@ -121,10 +121,10 @@ export default function getNeighborhoodsList() {
 }
 ```
 ### check style
-npm run lint 2-arrow.js
+`npm run lint 2-arrow.js`
 
 #### Execution
-npm run dev executables/2-main.js
+`npm run dev executables/2-main.js`
 
 ---
 
@@ -146,10 +146,10 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
 }
 ```
 ### check style
-npm run lint 3-default-parameter.js
+`npm run lint 3-default-parameter.js`
 
 #### Execution
-npm run dev executables/3-main.js
+`npm run dev executables/3-main.js`
 
 ---
 
@@ -162,10 +162,10 @@ export default function returnHowManyArguments() {
 }
 ```
 ### check style
-npm run lint 4-rest-parameter.js
+`npm run lint 4-rest-parameter.js`
 
 #### Execution
-npm run dev executables/4-main.js
+`npm run dev executables/4-main.js`
 
 ---
 
@@ -177,10 +177,10 @@ export default function concatArrays(array1, array2, string) {
 }
 ```
 ### check style
-npm run lint 5-spread-operator.js
+`npm run lint 5-spread-operator.js`
 
 #### Execution
-npm run dev executables/5-main.js
+`npm run dev executables/5-main.js`
 
 ---
 
@@ -203,10 +203,10 @@ export default function getSanFranciscoDescription() {
 }
 ```
 ### check style
-npm run lint 6-string-interpolation.js
+`npm run lint 6-string-interpolation.js`
 
 #### Execution
-npm run dev executables/6-main.js
+`npm run dev executables/6-main.js`
 
 ---
 
@@ -227,7 +227,7 @@ export default function getBudgetObject(income, gdp, capita) {
 }
 ```
 ### check style
-npm run lint 7-getBudgetObject.js
+`npm run lint 7-getBudgetObject.js`
 
 #### Execution
-npm run dev executables/7-main.js
+`npm run dev executables/7-main.js`
