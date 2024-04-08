@@ -54,8 +54,7 @@ npm run test
 ```
 
 ## Projects tasks
-[0. Const or let?](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/0-constants.js)
-
-### File modifications:
-- function taskFirst to instantiate variables using const
-- function taskNext to instantiate variables using let
+**[0. Const or let?](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/0-constants.js)**
+#### File modifications:
+- function taskFirst to instantiate variables using const.
+- function taskNext to instantiate variables using let.
