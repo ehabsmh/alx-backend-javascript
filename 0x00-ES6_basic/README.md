@@ -314,3 +314,24 @@ export default function appendToEachArrayValue(array, appendString) {
 
 #### Execution
 `npm run dev executables/10-main.js`
+
+---
+
+**[11. Iterator](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/11-createEmployeesObject.js)**
+
+Write a function named createEmployeesObject that will receive two arguments:
+
+departmentName (String)
+employees (Array of Strings)
+
+```es6
+export default function createEmployeesObject(departmentName, employees) {
+
+}
+```
+
+#### check style
+`npm run lint 11-createEmployeesObject.js`
+
+#### Execution
+`npm run dev executables/11-main.js`
