@@ -74,7 +74,7 @@ export function taskNext() {
   return combination;
 }
 ```
-### check style
+#### check style
 `npm run lint 0-constants.js`
 
 #### Execution
@@ -98,7 +98,7 @@ export default function taskBlock(trueOrFalse) {
   return [task, task2];
 }
 ```
-### check style
+#### check style
 `npm run lint 1-block-scoped.js`
 
 #### Execution
@@ -120,7 +120,7 @@ export default function getNeighborhoodsList() {
   };
 }
 ```
-### check style
+#### check style
 `npm run lint 2-arrow.js`
 
 #### Execution
@@ -145,7 +145,7 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
   return initialNumber + expansion1989 + expansion2019;
 }
 ```
-### check style
+#### check style
 `npm run lint 3-default-parameter.js`
 
 #### Execution
@@ -161,7 +161,7 @@ export default function returnHowManyArguments() {
 
 }
 ```
-### check style
+#### check style
 `npm run lint 4-rest-parameter.js`
 
 #### Execution
@@ -176,7 +176,7 @@ Using spread syntax, concatenate 2 arrays and each character of a string by modi
 export default function concatArrays(array1, array2, string) {
 }
 ```
-### check style
+#### check style
 `npm run lint 5-spread-operator.js`
 
 #### Execution
@@ -202,7 +202,7 @@ export default function getSanFranciscoDescription() {
         / ' proper had a GDP of ' + budget.gdp + ', and a GDP per capita of ' + budget.capita + '.';
 }
 ```
-### check style
+#### check style
 `npm run lint 6-string-interpolation.js`
 
 #### Execution
@@ -226,7 +226,7 @@ export default function getBudgetObject(income, gdp, capita) {
   return budget;
 }
 ```
-### check style
+#### check style
 `npm run lint 7-getBudgetObject.js`
 
 #### Execution
