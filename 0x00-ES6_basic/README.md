@@ -119,3 +119,15 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
   return initialNumber + expansion1989 + expansion2019;
 }
 ```
+
+---
+
+**[4. Rest parameter syntax for functions](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/4-rest-parameter.js)**
+
+Modify the following function to return the number of arguments passed to it using the rest parameter syntax
+
+```es6
+export default function returnHowManyArguments() {
+
+}
+```
