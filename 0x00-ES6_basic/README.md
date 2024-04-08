@@ -58,3 +58,24 @@ npm run test
 #### File modifications:
 - function taskFirst to instantiate variables using const.
 - function taskNext to instantiate variables using let.
+
+---
+
+**[1. Block Scope](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/0-constants.js)**
+
+
+Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.
+
+```es6
+export default function taskBlock(trueOrFalse) {
+  var task = false;
+  var task2 = true;
+
+  if (trueOrFalse) {
+    var task = true;
+    var task2 = false;
+  }
+
+  return [task, task2];
+}
+```
