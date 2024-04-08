@@ -74,6 +74,9 @@ export function taskNext() {
   return combination;
 }
 ```
+### check style
+npm run lint 0-constants.js
+
 #### Execution
 npm run dev executables/0-main.js
 
@@ -95,6 +98,9 @@ export default function taskBlock(trueOrFalse) {
   return [task, task2];
 }
 ```
+### check style
+npm run lint 1-block-scoped.js
+
 #### Execution
 npm run dev executables/1-main.js
 
@@ -114,6 +120,9 @@ export default function getNeighborhoodsList() {
   };
 }
 ```
+### check style
+npm run lint 2-arrow.js
+
 #### Execution
 npm run dev executables/2-main.js
 
@@ -136,6 +145,9 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
   return initialNumber + expansion1989 + expansion2019;
 }
 ```
+### check style
+npm run lint 3-default-parameter.js
+
 #### Execution
 npm run dev executables/3-main.js
 
@@ -149,6 +161,9 @@ export default function returnHowManyArguments() {
 
 }
 ```
+### check style
+npm run lint 4-rest-parameter.js
+
 #### Execution
 npm run dev executables/4-main.js
 
@@ -161,6 +176,9 @@ Using spread syntax, concatenate 2 arrays and each character of a string by modi
 export default function concatArrays(array1, array2, string) {
 }
 ```
+### check style
+npm run lint 5-spread-operator.js
+
 #### Execution
 npm run dev executables/5-main.js
 
@@ -184,6 +202,32 @@ export default function getSanFranciscoDescription() {
         / ' proper had a GDP of ' + budget.gdp + ', and a GDP per capita of ' + budget.capita + '.';
 }
 ```
+### check style
+npm run lint 6-string-interpolation.js
 
 #### Execution
 npm run dev executables/6-main.js
+
+---
+
+**[7. Object property value shorthand syntax](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/7-getBudgetObject.js)**
+
+Notice how the keys and the variable names are the same?
+
+Modify the following function’s budget object to simply use the keyname instead.
+```es6
+export default function getBudgetObject(income, gdp, capita) {
+  const budget = {
+    income: income,
+    gdp: gdp,
+    capita: capita,
+  };
+
+  return budget;
+}
+```
+### check style
+npm run lint 7-getBudgetObject.js
+
+#### Execution
+npm run dev executables/7-main.js
