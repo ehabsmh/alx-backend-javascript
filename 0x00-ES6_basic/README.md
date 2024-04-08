@@ -131,3 +131,14 @@ export default function returnHowManyArguments() {
 
 }
 ```
+
+---
+
+**[5. The wonders of spread syntax](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/5-spread-operator.js)**
+
+Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.
+
+```es6
+export default function concatArrays(array1, array2, string) {
+}
+```
