@@ -335,3 +335,25 @@ export default function createEmployeesObject(departmentName, employees) {
 
 #### Execution
 `npm run dev executables/11-main.js`
+
+---
+
+**[12. Let's create a report object](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/12-createReportObject.js)**
+
+Write a function named **`createReportObject`** whose parameter, **`employeesList`**, is the return value of the previous function **`createEmployeesObject`**.
+```es6
+export default function createReportObject(employeesList) {
+
+}
+```
+**`createReportObject`** should return an object containing the key allEmployees and a method property called getNumberOfDepartments.
+
+**`allEmployees`** is a key that maps to an object containing the department name and a list of all the employees in that department.
+
+The method property receives **`employeesList`** and returns the __number of departments__. I would suggest suggest thinking back to the ES6 method property syntax.
+
+#### check style
+`npm run lint 12-createReportObject.js`
+
+#### Execution
+`npm run dev executables/12-main.js`
