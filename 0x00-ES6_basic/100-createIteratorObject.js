@@ -2,9 +2,8 @@ export default function createIteratorObject(report) {
   const arr = [];
   let i = 0;
 
-  while (Object.entries(report.allEmployees)[i]) {
-    /* console.log(Object.entries(report.allEmployees)[i][1]); */
-    const departEmployees = Object.entries(report.allEmployees)[i][1];
+  while (Object.values(report.allEmployees)[i]) {
+    const departEmployees = Object.values(report.allEmployees)[i];
     arr.push(...departEmployees);
     i += 1;
   }
