@@ -357,3 +357,16 @@ The method property receives **`employeesList`** and returns the __number of dep
 
 #### Execution
 `npm run dev executables/12-main.js`
+
+---
+
+### [13. Iterating through report objects](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x00-ES6_basic/100-createIteratorObject.js)
+
+Write a function named **`createIteratorObject`**, that will take into argument a **`report`** Object created with the previous function **`createReportObject`**.
+
+This function will return an iterator to go through every employee in every department.
+```es6
+export default function createIteratorObject(report) {
+
+}
+```
