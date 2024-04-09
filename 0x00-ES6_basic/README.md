@@ -346,7 +346,7 @@ export default function createReportObject(employeesList) {
 
 }
 ```
-**`createReportObject`** should return an object containing the key allEmployees and a method property called getNumberOfDepartments.
+**`createReportObject`** should return an object containing the key **`allEmployees`** and a method property called **`getNumberOfDepartments`**.
 
 **`allEmployees`** is a key that maps to an object containing the department name and a list of all the employees in that department.
 
