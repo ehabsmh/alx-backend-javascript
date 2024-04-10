@@ -1,7 +1,7 @@
 # :book: 0x00. ES6 Basics
 ## Topics Covered
 1. ES6 i.e ECMAScript 2015.
-2. Node.js and NPM
+2. Asynchronous Javascript and Promises
 
 ## Project setup
 ```bash
