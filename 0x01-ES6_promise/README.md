@@ -69,3 +69,20 @@ or
 
 #### Execution
 `npm run dev executables/2-main.js`
+
+---
+
+### [3. Handle multiple successful promises](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/3-all.js)
+
+**`function handleProfileSignup()`**
+
+- imports uploadPhoto and createUser from utils.js
+- logs body firstName lastName to the console.
+
+#### check style
+`npm run lint 3-all.js`
+or
+`npx eslint 3-all.js`
+
+#### Execution
+`npm run dev executables/2-main.js`
