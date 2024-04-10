@@ -102,3 +102,21 @@ or
 
 #### Execution
 `npm run dev executables/4-main.js`
+
+---
+
+### [5. Reject the promises](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/5-photo-reject.js)
+
+Write and export a function named uploadPhoto. It should accept one argument fileName (string).
+
+The function should return a Promise rejecting with an Error and the string $fileName cannot be processed
+
+**`export default function uploadPhoto(filename) {}`**
+
+#### check style
+`npm run lint 5-photo-reject.js`
+or
+`npx eslint 5-photo-reject.js`
+
+#### Execution
+`npm run dev executables/5-main.js`
