@@ -85,4 +85,20 @@ or
 `npx eslint 3-all.js`
 
 #### Execution
-`npm run dev executables/2-main.js`
+`npm run dev executables/3-main.js`
+
+---
+
+### [4. Simple promise](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/4-user-promise.js)
+
+Using the following prototype that returns a resolved promise:
+
+**`function signUpUser(firstName, lastName) {}`**
+
+#### check style
+`npm run lint 4-user-promise.js`
+or
+`npx eslint 4-user-promise.js`
+
+#### Execution
+`npm run dev executables/4-main.js`
