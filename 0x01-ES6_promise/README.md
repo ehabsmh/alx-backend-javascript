@@ -120,3 +120,67 @@ or
 
 #### Execution
 `npm run dev executables/5-main.js`
+
+---
+
+### [6. Handle multiple promises](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/6-final-user.js)
+
+Import `signUpUser` from **`4-user-promise.js`** and `uploadPhoto` from **`5-photo-reject.js`**.
+
+Write and export a function named `handleProfileSignup`. It should accept three arguments `firstName` (string), `lastName` (string), and `fileName` (string). The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
+
+#### check style
+`npm run lint 6-final-user.js`
+or
+`npx eslint 6-final-user.js`
+
+#### Execution
+`npm run dev executables/6-main.js`
+
+---
+
+### [7. Load balancer](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/7-load_balancer.js)
+
+Write and export a function named `loadBalancer`. It should accept two arguments `chinaDownload` (Promise) and `USDownload` (Promise).
+
+The function should return the value returned by the promise that resolved the first.
+
+---
+
+### [8. Throw error / try catch](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/8-try.js)
+
+Write a function named `divideFunction` that will accept two arguments: `numerator` (Number) and `denominator` (Number).
+
+When the `denominator` argument is equal to `0`, the function should throw a new error with the message `cannot divide by 0`. Otherwise it should return the numerator divided by the denominator.
+
+---
+
+### [9. Throw an error](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/9-try.js)
+
+Write a function named `guardrail` that will accept one argument `mathFunction` (Function).
+
+This function should create and return an array named `queue`.
+
+When the `mathFunction` function is executed, the value returned by the function should be appended to the `queue`. If this function throws an error, the error message should be appended to the `queue`. In every case, the message `Guardrail was processed` should be added to the `queue`.
+
+---
+
+### [10. Await / Async](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x01-ES6_promise/100-await.js)
+
+Import `uploadPhoto` and `createUser` from **`utils.js`**
+
+Write an async function named `asyncUploadUser` that will call these two functions and return an object with the following format:
+
+```es6
+{
+  photo: response_from_uploadPhoto_function,
+  user: response_from_createUser_function,
+}
+```
+If one of the async function fails, return an empty object. Example:
+```es6
+{
+  photo: null,
+  user: null,
+}
+```
