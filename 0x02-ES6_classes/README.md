@@ -11,9 +11,9 @@ npm install
 ```
 
 #### check style
-`npm run lint script_file`
+`npm run lint file_name`
 or
-`npx eslint script_file`
+`npx eslint file_name`
 
 #### Execution
 `npm run dev executables/file_name`
@@ -35,6 +35,7 @@ Implements a function named `initializeRooms`. It should return an array of 3 `C
 ### [2. A Course, Getters, and Setters](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/2-hbtn_course.js)
 
 - Implements a class named `HolbertonCourse`:
+
 Constructor attributes:
     - name (String)
     - length (Number)
