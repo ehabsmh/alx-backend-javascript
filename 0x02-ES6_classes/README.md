@@ -45,3 +45,16 @@ Constructor attributes:
 - Type of attributes during object creation are verified.
 - Each attribute stored in an “underscore” attribute version.
 - a getter and setter for each attribute is implemented.
+
+---
+
+### [3. Methods, static methods, computed methods names..... MONEY](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/3-currency.js)
+
+Implement a class named `Currency`:
+
+- Constructor attributes:
+    - `code` (String)
+    - `name` (String)
+Each attribute must be stored in an “underscore” attribute version (ex: `name` is stored in `_name`)
+Implement a getter and setter for each attribute.
+Implement a method named `displayFullCurrency` that will return the attributes in the following format `name (code)`.
