@@ -29,3 +29,17 @@ Implements a class named **`ClassRoom`** that accepts one attribute.
 ### [1. Let's make some classrooms](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/1-make_classrooms.js)
 
 Implements a function named `initializeRooms`. It should return an array of 3 `ClassRoom` objects with the sizes 19, 20, and 34 (in this order).
+
+---
+
+### [2. A Course, Getters, and Setters](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/2-hbtn_course.js)
+
+- Implements a class named `HolbertonCourse`:
+Constructor attributes:
+    - name (String)
+    - length (Number)
+    - students (array of Strings)
+
+- Type of attributes during object creation are verified.
+- Each attribute stored in an “underscore” attribute version.
+- a getter and setter for each attribute is implemented.
