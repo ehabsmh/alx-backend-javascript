@@ -1,4 +1,5 @@
-# :book: 0x00. ES6 Basics
+# :book: 0x01-ES6_promise
+
 ## Topics Covered
 1. ES6 i.e ECMAScript 2015.
 2. Asynchronous Javascript and Promises
