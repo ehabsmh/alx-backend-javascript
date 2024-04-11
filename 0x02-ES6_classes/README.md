@@ -128,3 +128,72 @@ Implement a class named `HolbertonClass`:
 - Each attribute must be stored in an “underscore” attribute version (ex: `name` is stored in `_name`)
 - When the class is cast into a `Number`, it should return the size.
 - When the class is cast into a `String`, it should return the location.
+
+---
+
+### [9. Hoisting](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/9-hoisting.js)
+
+Fix this code and make it work.
+
+```es6
+const class2019 = new HolbertonClass(2019, 'San Francisco');
+const class2020 = new HolbertonClass(2020, 'San Francisco');
+
+export class HolbertonClass {
+  constructor(year, location) {
+    this._year = year;
+    this._location = location;
+  }
+
+  get year() {
+    return this._year;
+  }
+
+  get location() {
+    return this._location;
+  }
+}
+
+const student1 = new StudentHolberton('Guillaume', 'Salva', class2020);
+const student2 = new StudentHolberton('John', 'Doe', class2020);
+const student3 = new StudentHolberton('Albert', 'Clinton', class2019);
+const student4 = new StudentHolberton('Donald', 'Bush', class2019);
+const student5 = new StudentHolberton('Jason', 'Sandler', class2019);
+
+export class StudentHolberton {
+  constructor(firstName, lastName) {
+    this._firstName = firstName;
+    this._lastName = lastName;
+    this._holbertonClass = holbertonClass;
+  }
+
+  get fullName() {
+    return `${this._firstName} ${this._lastName}`;
+  }
+
+  get holbertonClass() {
+    return this.holbertonClass;
+  }
+
+  get fullStudentDescription() {
+    return `${self._firstName} ${self._lastName} - ${self._holbertonClass.year} - ${self._holbertonClass.location}`;
+  }
+}
+
+
+export const listOfStudents = [student1, student2, student3, student4, student5];
+```
+
+Result:
+```es6
+bob@dylan:~$ cat 9-main.js
+import listOfStudents from "./9-hoisting.js";
+
+console.log(listOfStudents);
+
+const listPrinted = listOfStudents.map(
+    student => student.fullStudentDescription
+);
+
+console.log(listPrinted)
+```
