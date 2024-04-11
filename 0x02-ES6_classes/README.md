@@ -186,7 +186,6 @@ export const listOfStudents = [student1, student2, student3, student4, student5]
 
 Result:
 ```es6
-bob@dylan:~$ cat 9-main.js
 import listOfStudents from "./9-hoisting.js";
 
 console.log(listOfStudents);
