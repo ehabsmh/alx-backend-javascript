@@ -37,6 +37,7 @@ Implements a function named `initializeRooms`. It should return an array of 3 `C
 - Implements a class named `HolbertonCourse`:
 
 Constructor attributes:
+
     - name (String)
     - length (Number)
     - students (array of Strings)
