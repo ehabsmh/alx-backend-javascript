@@ -5,9 +5,9 @@ export const queryAPI = (endPoint) => {
     weakMap.set(endPoint, 0);
   }
 
-  if (weakMap.get(endPoint) && weakMap.get(endPoint) >= 5) {
+  weakMap.set(endPoint, weakMap.get(endPoint) + 1);
+
+  if (weakMap.get(endPoint) >= 5) {
     throw new Error('Endpoint load is high');
   }
-
-  weakMap.set(endPoint, weakMap.get(endPoint) + 1);
 };
