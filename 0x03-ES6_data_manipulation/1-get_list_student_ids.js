@@ -1,5 +1,5 @@
 export default function getListStudentIds(listStudents) {
-  if (Object.getPrototypeOf(listStudents) !== Array.prototype) {
+  if (!Array.isArray(listStudents)) {
     return [];
   }
 
