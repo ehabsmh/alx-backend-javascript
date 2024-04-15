@@ -212,7 +212,7 @@ Add a method named `cloneCar`. This method should return a new object of the cla
 
 ---
 
-### [10. Vroom](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/100-evcar.js)
+### [11. EVCar](https://github.com/ehabsmh/alx-backend-javascript/blob/main/0x02-ES6_classes/100-evcar.js)
 
 Import `Car` from `10-car.js`.
 

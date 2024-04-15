@@ -1,4 +1,3 @@
-## 1. ES6 basics
+alx-backend-javascript
 
-A directory contains Small programs on ES6 concepts and features,
-[read more...](https://github.com/ehabsmh/alx-backend-javascript/tree/main/0x00-ES6_basic).
+## Each directory contains a README file that describes the program execution, setup files and task requirements.
