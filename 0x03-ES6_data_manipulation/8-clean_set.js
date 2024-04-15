@@ -1,12 +1,11 @@
 export default function cleanSet(set, startString) {
-  if (!startString) return '';
+  if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
+    return '';
+  }
 
-  let result = '';
+  const unique = [...set];
+  const bonElements = unique.filter((ele) => ele.startsWith(startString))
+    .map((bon) => bon.slice(startString.length));
 
-  set.forEach((value) => {
-    if (value.startsWith(startString)) {
-      result += `${value.slice(startString.length)}-`;
-    }
-  });
-  return result.slice(0, -1);
+  return bonElements.join('-');
 }
