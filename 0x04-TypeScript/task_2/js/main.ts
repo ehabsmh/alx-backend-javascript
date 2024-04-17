@@ -67,3 +67,10 @@ const executeWork = function (employee: (Teacher | Director)): void {
 
 executeWork(createEmployee(200));
 executeWork(createEmployee(1000));
+
+
+type Subjects = "Math" | "History";
+
+export function teachClass(todayClass: Subjects): string | boolean {
+  return (todayClass === "Math") ? "Teaching Math" : (todayClass === "History") ? "Teaching History" : `${undefined}`
+}
