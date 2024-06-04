@@ -1,4 +1,4 @@
-const http = require('node:http');
+const http = require('http');
 
 const host = -'127.0.0.1';
 const app = http.createServer((req, res) => {
