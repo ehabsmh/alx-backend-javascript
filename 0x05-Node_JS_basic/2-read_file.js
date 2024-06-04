@@ -2,7 +2,7 @@ const fs = require('fs');
 
 function countStudents(path) {
   try {
-    const data = fs.readFileSync(path, 'utf-8');
+    const data = fs.readFileSync(path, 'utf8').toString();
     const studentsList = data.split('\n').slice(1);
     if (!studentsList[-1]) {
       studentsList.pop();
