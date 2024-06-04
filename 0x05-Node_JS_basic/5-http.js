@@ -10,7 +10,7 @@ const requestListener = async (req, res) => {
   if (url === '/students') {
     const initialHeaderResponse = 'This is the list of our students\n';
     countStudents(process.argv[2])
-      .then((data) => res.end(`${initialHeaderResponse}${data}`))
+      .then((data) => res.end(`${initialHeaderResponse}${data.join('\n')}`))
       .catch((err) => res.end(`${initialHeaderResponse}${err.message}`));
   }
 };
