@@ -3,6 +3,10 @@ const fs = require('fs');
 function countStudents(path) {
   try {
     const data = fs.readFileSync(path, 'utf8').toString();
+    if (!data) {
+      console.log('Cannot load the database');
+      return;
+    }
     const studentsList = data.split('\n').slice(1);
     if (!studentsList[-1]) {
       studentsList.pop();
@@ -18,6 +22,7 @@ function countStudents(path) {
     });
 
     console.log('Number of students:', studentsList.length);
+
     for (const student of Object.keys(studentsObj)) {
       console.log(`Number of students in ${student}: ${studentsObj[student].length}. List: ${studentsObj[student].join(', ')}`);
     }
