@@ -2,23 +2,19 @@ const fs = require('fs');
 
 function countStudents(path) {
   try {
-    const data = fs.readFileSync(path, 'utf8').toString();
-    if (!data) {
-      console.log('Cannot load the database');
-      return;
-    }
+    const data = fs.readFileSync(path, 'utf8');
     const studentsList = data.split('\n').slice(1);
-    if (!studentsList[-1]) {
-      studentsList.pop();
-    }
+    studentsList.pop();
 
     const studentsObj = {};
     studentsList.forEach((student) => {
-      const studentsList = student.split(',');
-      const [firstName, , , field] = studentsList;
-      if (!studentsObj[field]) studentsObj[field] = [];
+      if (student.trim() !== '') {
+        const studentsList = student.split(',');
+        const [firstName, , , field] = studentsList;
+        if (!studentsObj[field]) studentsObj[field] = [];
 
-      studentsObj[field].push(firstName);
+        studentsObj[field].push(firstName);
+      }
     });
 
     console.log('Number of students:', studentsList.length);
