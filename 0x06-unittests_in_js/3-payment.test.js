@@ -1,6 +1,6 @@
 const sinon = require('sinon');
 const sendPaymentRequestToApi = require('./3-payment');
-const { Utils } = require('./utils');
+const Utils = require("./utils");
 const { expect } = require('chai');
 
 describe('sendPaymentRequestToApi', () => {
