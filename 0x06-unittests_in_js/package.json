@@ -1,26 +1,17 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "unit testing in js",
+  "description": "Unittesting in nodeJS",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "lint": "./node_modules/.bin/eslint",
-    "check-lint": "lint [0-9]*.js"
+    "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chai-http": "^4.3.0",
-    "express": "^4.17.1",
-    "stub": "^0.3.2"
-  },
+  "author": "Ehab Hussein",
+  "license": "MIT",
   "devDependencies": {
-    "chai": "^4.4.1",
-    "eslint": "^8.7.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-mocha": "^10.0.3",
-    "mocha": "^9.2.2",
-    "sinon": "^12.0.1"
+    "chai": "^4.3.8",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.2.0",
+    "sinon": "^16.0.0"
   }
 }
